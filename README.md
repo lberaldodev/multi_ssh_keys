@@ -18,7 +18,8 @@ Setup to MultiSSH keys using macOS
 5- Execute ```vi ~/.ssh/config```
 
 6- Replace the content with:
-```Host <HOST_1>
+```
+  Host <HOST_1>
   HostName <HOST_1>
   AddKeysToAgent yes
   User git
